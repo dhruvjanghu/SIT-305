@@ -312,7 +312,7 @@ class MainActivity : ComponentActivity() {
 
                 Spacer(modifier = Modifier.height(24.dp))
 
-                // remove button 
+                // remove button
                 Button(
                     onClick = {
                         coroutineScope.launch {
